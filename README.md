@@ -1,2 +1,2 @@
-# PZW4
-Vježbe iz programiranja za web - 4. razred
+# PZW
+Vježbe iz programiranja za web - JavaScript programski jezik.
