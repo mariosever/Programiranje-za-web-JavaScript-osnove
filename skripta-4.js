@@ -94,7 +94,7 @@ console.log(starost > starost - 1999);
 // Primjer konkatenacije
 
 const naziv = "Ivan";
-const posao = "Vatrogasac";
+const posao = "Programer";
 const godRodjenja = 2005;
 const godina = 2025;
 
