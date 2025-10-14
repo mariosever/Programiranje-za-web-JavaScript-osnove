@@ -6,7 +6,7 @@ console.log(5 + 10 + 15);
 /* Const način definiranja varijable zahtijeva deklaraciju i inicijalizaciju u istom trenutku. 
 Ne dozvoljava promjenu deklaracije i nove inicijalizacije variable */
 const mojaVarijabla = "Učimo varijable sa constom";
-console.log(js);
+console.log(mojaVarijabla);
 
 /* Let način definiranja varijable dozvoljava deklaraciju bez inicijalizacije. 
 Ali ne dozvoljava ponovnu deklaraciju varijable.
