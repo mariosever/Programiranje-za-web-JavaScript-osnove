@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS vježba</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: white;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button {
+            margin-right: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>JavaScript vježba</h1>
+
+<div class="container">
+    <div id="box1" class="box">1</div>
+    <div id="box2" class="box">2</div>
+    <div id="box3" class="box">3</div>
+    <div id="box4" class="box">4</div>
+</div>
+
+<button onclick="promijeniUPlavu()">1. Promijeni u plavu</button>
+<button onclick="triBoje()">2. Tri boje</button>
+<button onclick="promijeniTekst()">3. Promijeni tekst</button>
+<button onclick="zelenaSve()">4. Sve u zeleno</button>
+
+<script src="skripta-7.js"></script>    
+
+</body>
+</html>
